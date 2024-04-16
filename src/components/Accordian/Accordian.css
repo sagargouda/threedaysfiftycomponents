@@ -1,0 +1,13 @@
+button{
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+}
+
+.active{
+    background-color: darkgreen;
+}
+.inactive{
+background-color: red;
+}
