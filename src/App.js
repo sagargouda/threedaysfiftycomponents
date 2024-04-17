@@ -8,6 +8,9 @@
 // import Scrolltotopandbottom from "./components/scrolltotopbottom/scrolltotopandbottom";
 
 import Scrolltoparticularsection from "./scrolltoparticularsection/scrolltoparticularsection";
+import Profilefinder from "./components/githubprofile/profilefinder";
+import Modal from "./components/modals/modal";
+
 
 function App() {
   return (
@@ -18,8 +21,10 @@ function App() {
       {/*  <AutoSuggestion/>*/}
       {/*  <Qrcode/>*/}
       {/*<Livecomments/>*/}
-  {/*<Scrolltotopandbottom/>*/}
-      <Scrolltoparticularsection/>
+    {/*<Scrolltotopandbottom/>*/}
+     {/*  <Scrolltoparticularsection/>*/}
+     {/*   <Profilefinder/>*/}
+   <Modal/>
     </div>
   );
 }
