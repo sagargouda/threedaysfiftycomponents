@@ -4,7 +4,8 @@
 // import AutoSuggestion from "./components/autosuggestion/AutoSuggestion";
 // import Qrcode from "./components/qrcode/qrcode";
 
-import Livecomments from "./components/livecomments/livecomments";
+// import Livecomments from "./components/livecomments/livecomments";
+import Scrolltotopandbottom from "./components/scrolltotopbottom/scrolltotopandbottom";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/*  <PaginationTest/>*/}
       {/*  <AutoSuggestion/>*/}
       {/*  <Qrcode/>*/}
-      <Livecomments/>
+      {/*<Livecomments/>*/}
+  <Scrolltotopandbottom/>
     </div>
   );
 }
