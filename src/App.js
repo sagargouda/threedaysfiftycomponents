@@ -2,7 +2,8 @@
 // import StarRating from "./components/StarRating/StarRating";
 // import PaginationTest from "./components/pagination/PaginationTest";
 
-import AutoSuggestion from "./components/autosuggestion/AutoSuggestion";
+// import AutoSuggestion from "./components/autosuggestion/AutoSuggestion";
+import Qrcode from "./components/qrcode/qrcode";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/*<Accordian/>*/}
       {/*  <StarRating noOfStars={6} />*/}
       {/*  <PaginationTest/>*/}
-        <AutoSuggestion/>
+      {/*  <AutoSuggestion/>*/}
+        <Qrcode/>
     </div>
   );
 }
