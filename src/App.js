@@ -5,7 +5,9 @@
 // import Qrcode from "./components/qrcode/qrcode";
 
 // import Livecomments from "./components/livecomments/livecomments";
-import Scrolltotopandbottom from "./components/scrolltotopbottom/scrolltotopandbottom";
+// import Scrolltotopandbottom from "./components/scrolltotopbottom/scrolltotopandbottom";
+
+import Scrolltoparticularsection from "./scrolltoparticularsection/scrolltoparticularsection";
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
       {/*  <AutoSuggestion/>*/}
       {/*  <Qrcode/>*/}
       {/*<Livecomments/>*/}
-  <Scrolltotopandbottom/>
+  {/*<Scrolltotopandbottom/>*/}
+      <Scrolltoparticularsection/>
     </div>
   );
 }
